@@ -1,0 +1,1 @@
+!function(t,e,n,s){"use strict";var u={teste:function(){alert("testan")}};u.teste()}(jQuery,window,document);

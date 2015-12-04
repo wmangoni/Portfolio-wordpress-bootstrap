@@ -1,0 +1,79 @@
+.programa{
+
+	.center{
+
+		.banner{
+			height: 500px;
+			background: #bbb;
+			background-position-y: 0px;
+			overflow:hidden;
+		}
+		.banner_mobile{
+			width: 100%;
+			height: 304px;
+			background: #bbb;
+			background-position-y: 0px;
+	    	background-size: 1250px;
+			overflow:hidden;
+		}
+		.busca{
+			background: #bf1f3b;
+			input{
+				background: #bf1f3b;
+			}
+		}
+		.busca_mobile{
+			background: #bf1f3b;
+			input{
+				background: #bf1f3b;
+			}
+		}
+
+		.description{
+			color: #bf1f3b;
+			h2{
+				font-weight: bold;
+			}
+		}
+
+		.box-left{
+			margin-top: 20px;
+			a{
+				text-decoration: none;
+				color: #c01c3b;
+				font-weight: bold;
+			}
+			p{
+				text-align: justify;
+			}
+		}
+		.box-right{
+			margin-top: 20px;
+			a{
+				text-decoration: none;
+				color: #c01c3b;
+				font-weight: bold;
+			}
+			p{
+				text-align: justify;
+			}
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 490px){
+	.programa{
+
+		.center{
+			.box-left{
+				margin-left: 33px;
+			}
+			.box-right{
+				margin-left: 33px;
+			}
+		}
+
+	}
+}

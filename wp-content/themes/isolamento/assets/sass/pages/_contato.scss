@@ -1,0 +1,165 @@
+.contato{
+
+	.center{
+
+		.banner{
+			height: 500px;
+			background: #bbb;
+			background-position-y: 0px;
+			overflow:hidden;
+		}
+		.banner_mobile{
+			width: 100%;
+			height: 304px;
+			background: #bbb;
+			background-position-y: 0px;
+	    	background-size: 1250px;
+			overflow:hidden;
+		}
+		.busca{
+			background: #bf1f3b;
+			input{
+				background: #bf1f3b;
+			}
+		}
+		.busca_mobile{
+			background: #bf1f3b;
+			input{
+				background: #bf1f3b;
+			}
+		}
+
+		.form-contact{
+			margin-top: 30px;
+			padding: 0;
+			
+			div.wpcf7-validation-errors {
+				border:none;
+			}
+			div.wpcf7-mail-sent-ok{
+				border: none;
+			}
+
+			div{
+				height: 48px;
+
+				label{
+					width: 100px;
+					color: #636467;
+				}
+				input{
+					width: 100%;
+					background-color: #dcddde;
+					border: 1px solid #ccc;
+					border-radius: 1px;
+					height: 30px;
+				}
+
+				.your-city{
+					input{
+						width: 95%;
+					}
+				}
+				.your-phone{
+					input{
+						width: 95%;
+					}
+				}
+				.your-uf{
+					label{
+						margin-left: 55%;
+					}
+					input{
+						width: 95%;
+						margin-left: 5%;
+					}
+				}
+				.your-celphone{
+					label{
+						margin-left: 55%;
+					}
+					input{
+						width: 95%;
+						margin-left: 5%;
+					}
+				}
+
+				.your-message-container{
+					height: 60px;
+					textarea{
+						width: 100%;
+						height: 80px;
+						border: 1px solid #ccc;
+						background-color: #dcddde;
+						border-radius: 1px;
+					}
+				}
+				.submit-btn{
+					margin-top: 30px;
+					input{
+						float:right;
+						width: 80px;
+    					height: 30px;
+    					background-color: #bf1f3b;
+    					border:none;
+    					color: #fff;
+    					border-radius: 1px;
+					}
+				}
+			}
+
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 800px){
+	.contato{
+
+		.center{
+
+			.form-contact{
+
+				div{
+					height: auto;
+
+					.your-city{
+						input{
+							width: 100%;
+						}
+					}
+					.your-phone{
+						input{
+							width: 100%;
+						}
+					}
+					.your-uf{
+						label{
+							margin-left: 0%;
+						}
+						input{
+							width: 100%;
+							margin-left: 0%;
+						}
+					}
+					.your-celphone{
+						label{
+							margin-left: 0%;
+						}
+						input{
+							width: 100%;
+							margin-left: 0%;
+						}
+					}
+
+					.submit-btn{
+						margin-top: 66px;
+						margin-bottom: 20px;
+					}
+				}
+			}
+		}
+
+	}
+}

@@ -1,0 +1,32 @@
+// Normalize
+@import "normalize";
+
+// Páginas
+@import "pages/home";
+@import "pages/parcerias";
+@import "pages/beneficios";
+@import "pages/programa";
+@import "pages/contato";
+@import "pages/videos";
+@import "pages/404";
+
+// Variaveis
+@import "variaveis";
+
+// Partials
+@import "partials/base";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/plugins";
+@import "partials/bootstrap.min";
+@import "partials/bootstrap-theme.min";
+
+// Fontes
+@import "fonts";
+
+// Browser Fix
+@import "browserfix/ie";
+@import "browserfix/mozilla";
+@import "browserfix/safari";
+@import "browserfix/chrome";
+@import "browserfix/android";

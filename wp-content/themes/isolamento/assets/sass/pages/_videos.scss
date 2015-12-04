@@ -1,0 +1,167 @@
+.videos{
+
+	.center{
+
+		.banner{
+			height: 500px;
+			background: #bbb;
+			background-position-y: 0px;
+			overflow:hidden;
+		}
+		.banner_mobile{
+			width: 100%;
+			height: 304px;
+			background: #bbb;
+			background-position-y: 0px;
+	    	background-size: 1250px;
+			overflow:hidden;
+		}
+		.busca{
+			background: #e12132;
+			input{
+				background: #e12132;
+			}
+		}
+		.busca_mobile{
+			background: #e12132;
+			input{
+				background: #e12132;
+			}
+		}
+
+		.description{
+			p{
+				color: #636467;
+			}
+
+			h1, h2, h3{
+				color: #e12132;
+				font-weight: bold;
+				margin-bottom: 25px;
+			}
+			ul{
+				padding-left: 16px;
+				float: left;
+				width: 450px;
+				margin-top: 20px;
+				li{
+					font-weight: bold;
+					color: #636467;
+
+					a{
+						text-decoration: none;
+						color: #636467;
+					}
+				}
+
+				&:nth-child(3){
+					//float: right;
+				}
+			}
+		}
+
+		.painel-videos{
+			.container-video{
+				height: auto;
+			}
+			margin-top: 20px;
+			img{
+				width: 100%;
+			}
+			p{
+				color: #636467;
+			}
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 780px){
+	.videos{
+
+		.center{
+			.description{
+				ul{
+					float: none;
+					padding-left: 0px;
+					width: 97%;
+
+					&:nth-child(3){
+						float: none;
+					}
+				}
+			}
+			.painel-videos{
+
+				.container-video{
+
+					height: 250px;
+					iframe{
+						height: 400px;
+					}
+				}
+			}
+
+		}
+
+	}
+}
+
+@media screen and (max-width: 490px){
+	.videos{
+
+		.center{
+			.description{
+				ul{
+					float: none;
+					padding-left: 0px;
+					width: 97%;
+
+					&:nth-child(3){
+						float: none;
+					}
+				}
+			}
+			.painel-videos{
+				.container-video{
+					height: 250px;
+					iframe{
+						height: 200px;
+					}
+				}
+			}
+
+		}
+
+	}
+}
+
+@media screen and (max-width: 330px){
+	.videos{
+
+		.center{
+			.description{
+				ul{
+					float: none;
+					padding-left: 0px;
+					width: 97%;
+
+					&:nth-child(3){
+						float: none;
+					}
+				}
+			}
+			.painel-videos{
+				.container-video{
+					height: 220px;
+					iframe{
+						height: 150px;
+					}
+				}
+			}
+
+		}
+
+	}
+}

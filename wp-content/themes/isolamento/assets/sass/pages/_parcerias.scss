@@ -1,0 +1,163 @@
+.parcerias{
+
+	/*padding: 170px;*/
+
+	.center{
+
+		.banner{
+			height: 500px;
+			background: #bbb;
+			background-position-y: 0px;
+	    	/*background-size: 2000px;*/
+			overflow:hidden;
+		}
+		.banner_mobile{
+			width: 100%;
+			height: 304px;
+			background: #bbb;
+			background-position-y: 0px;
+	    	background-size: 1250px;
+			overflow:hidden;
+		}
+		.busca{
+			background: #ed7d23;
+			input{
+				background: #ed7d23;
+			}
+		}
+		.busca_mobile{
+			background: #ed7d23;
+			input{
+				background: #ed7d23;
+			}
+		}
+
+		.description{
+			text-align: center;
+			padding-top: 50px;
+			font-weight: bold;
+			color: #656668;
+		}
+
+		.box-parceiros{
+			margin-top: 50px;
+			p{
+				border-left: 1px solid gray;
+				padding-left: 20px;
+				color: #656668;
+				text-align: justify;
+			}
+			img{
+				width: 100%;
+				float: right;
+			}
+			a{
+				text-decoration: none;
+				color: #656668;
+				font-weight: bold;
+			}
+
+			&:nth-child(3){
+				img{
+					width: 74%;
+				}
+			}
+
+			&:nth-child(4){
+				img{
+					width: 90%;
+				}
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width: 780px){
+
+	.parcerias{
+
+		.center{
+
+			.box-parceiros{
+				margin-top: 50px;
+				p{
+					border-left: 0px solid gray;
+					padding-left: 20px;
+					margin-top: 30px;
+					margin-left: 47px;
+				}
+				img{
+					width: 100%;
+					float: right;
+					margin-bottom: 30px;
+				}
+
+				&:nth-child(3){
+				img{
+					width: 100%;
+				}
+			}
+
+			&:nth-child(4){
+				img{
+					width: 100%;
+				}
+			}
+			}
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 490px){
+
+	.parcerias{
+
+		.center{
+
+			.box-parceiros{
+				margin-top: 50px;
+				p{
+					border-left: 0px solid gray;
+					padding-left: 20px;
+					margin-top: 30px;
+					margin-left: 30px;
+				}
+				img{
+					width: 100%;
+					float: right;
+					margin-bottom: 0px;
+				}
+			}
+		}
+
+	}
+
+}
+@media screen and (max-width: 330px){
+
+	.parcerias{
+
+		.center{
+
+			.box-parceiros{
+				margin-top: 50px;
+				p{
+					border-left: 0px solid gray;
+					padding-left: 20px;
+					margin-top: 30px;
+					margin-left: 10px;
+				}
+				img{
+					width: 100%;
+					float: right;
+					margin-bottom: 0px;
+				}
+			}
+		}
+
+	}
+
+}

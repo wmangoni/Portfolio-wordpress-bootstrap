@@ -1,0 +1,1 @@
+!function(t,e,s,n){"use strict";var o={teste:function(){alert("produtosss")}};o.teste()}(jQuery,window,document);
